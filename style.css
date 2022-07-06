@@ -42,10 +42,10 @@ body{
 .donate-now-button a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-#donate-today{
+.donate-today-and-updates{
     
     width: 60%;
     margin: auto;
@@ -88,7 +88,7 @@ body{
     margin-right: 0;
 }
 
-input[type=text]{
+input[name=other-amount]{
     border: none;
     border-bottom: 1px solid rgb(179, 177, 177);
     width: 100%;
@@ -96,13 +96,13 @@ input[type=text]{
 
 }
 
-::placeholder{
+input[name=other-amount]::placeholder{
     text-align: center;
     font-size: 18px;
     color: rgb(196, 193, 193);
 }
 
-.button{
+.other-amount-button{
     display: flex;
     justify-content: center;
 }
@@ -110,12 +110,12 @@ input[type=text]{
     margin-top: 20px;
 }
 
-#donate-plan{
+.donate-plan-activity{
     width: 80%;
     margin: auto;
     margin-top: 100px;
 }
-#donate-plan .donate-common-text{
+.donate-plan-activity .donate-common-text{
     width: 75%;
     margin: auto;
 }
@@ -139,7 +139,7 @@ input[type=text]{
     background: #ffe6e6;
 }
 .donate-plan-card3{
-    background: #fcecdd;
+    background: #ffc691;
     margin-right: 0;
 }
 
@@ -170,7 +170,7 @@ input[type=text]{
 .aside-one button a{
     text-decoration: none;
     color: white;
-    font-size:20px ;
+    font-size:15px ;
 }
 .aside-two{
     margin-left: 60px;
@@ -180,4 +180,63 @@ input[type=text]{
     height: auto;
     width: 90%;
     border-radius: 5px;
+}
+
+.recent-activity-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recent-activity-card{
+    background: #f1f7f7;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.update-form{
+    margin-top: 50px;
+    background: #ffd1d1;
+    margin-bottom: 100px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[name=email]{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    background: rgb(212, 211, 211);
+    border:none;
+    width: 20vw;
+    padding-left: 10px;
+}
+
+
+
+.subscribe button{
+    background: rgb(194, 11, 11);
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 12px 15px;
+}
+
+
+footer{
+    background: rgb(71, 71, 71);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h3,footer p{
+    color: white;
+
 }
